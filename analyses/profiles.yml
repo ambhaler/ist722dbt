@@ -1,0 +1,18 @@
+user:
+  outputs:
+    default:
+      account: NNBFYOO-YRA91912
+      auth_type: password
+      client_session_keep_alive: false
+      connect_retries: 3
+      connect_timeout: 30
+      database: DEMO_DB
+      password: Messi@19102001
+      retry_on_database_errors: true
+      role: null
+      schema: dbt_ambhaler
+      threads: 6
+      type: snowflake
+      user: AMBHALERSYR
+      warehouse: COMPUTE_WH
+  target: default
